@@ -17,7 +17,7 @@
 `touch index.html style.css script.js` -  create files using the touch command
 
 
-## 4 - print working directory
+## 4 - print working directory with `pwd`
 `pwd` - shows you the current directory you're in
 
 ## 5 - remove files and directories with `rm`
@@ -27,3 +27,7 @@
 `rm index.html` - removes the file index.html
 
 `rm -r my-folder` - removes the folder with the -r flag (recursive)
+
+## 6 - print file content in the terminal using `cat`
+
+`cat index.html` - shows you the content of index.html in the terminal
