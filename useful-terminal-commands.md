@@ -6,8 +6,10 @@
 ## 2 - changing directories
 
 `cd <PROJECT>` - Go inside directory
+
 `cd <PROJECT>` - Go back one directory
 
 ## 3 - creating new files
 `touch index.html style.css script.js` -  create files using the touch command
+
 `touch `- create the folder if it doesn't exist yet
