@@ -11,7 +11,19 @@
 
 `cd /` - Go to the home directory
 
-`cd ~`- Got to the user directory
+`cd ~` - Got to the user directory
 
 ## 3 - creating new files with `touch`
 `touch index.html style.css script.js` -  create files using the touch command
+
+
+## 4 - print working directory
+`pwd` - shows you the current directory you're in
+
+## 5 - remove files and directories with `rm`
+
+**Warning: rm will permanently remove the files**
+
+`rm index.html` - removes the file index.html
+
+`rm -r my-folder` - removes the folder with the -r flag (recursive)
