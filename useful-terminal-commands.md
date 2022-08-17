@@ -1,5 +1,6 @@
 ## 1 - make a new directory
 > `mkdir my-project` - Create a new directory
+> 
 > `mkdir -p project1/project2/final-project` - use the -p flag to create nested directories that don't exist yet
   
 ## 2 - changing directories
