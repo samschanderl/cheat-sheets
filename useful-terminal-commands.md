@@ -1,5 +1,5 @@
 ## make a new directory
-  mkdir <PROJECT>
+  `mkdir <PROJECT>`
   
 ## go inside new directory
-  cd <PROJECT>
+  `cd <PROJECT>`
