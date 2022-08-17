@@ -4,8 +4,8 @@
 ## 2 - changing directories
 
 Go inside directory
-  `cd <PROJECT>`
+    `cd <PROJECT>`
  
 Go back one directory
-  `cd ..`
+    `cd ..`
 
