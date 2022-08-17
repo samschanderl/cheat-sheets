@@ -31,3 +31,7 @@
 ## 6 - print file content in the terminal using `cat`
 
 `cat index.html` - shows you the content of index.html in the terminal
+
+## 7 - get information about the command using `man`
+
+`man mkdir` - shows you how the command `mkdir`works and which options you have
