@@ -1,5 +1,11 @@
-## make a new directory
+## 1 - make a new directory
   `mkdir <PROJECT>`
   
-## go inside new directory
+## 2 - changing directories
+
+Go inside directory
   `cd <PROJECT>`
+ 
+Go back one directory
+  `cd ..`
+
