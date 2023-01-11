@@ -25,6 +25,17 @@ sudo freshclam
 sudo systemctl start clamav-freshclam
 ```
 
+5. Start freshclam service
+
+```bash
+sudo systemctl start clamav-freshclam
+```
+- Run this command to start freshclam service at boot.
+
+```bash
+$ sudo systemctl enable clamav-freshclam
+```
+
 ## Common clam av commands
 
 ### run clam scan recursively on current directory (sound bell if virus detected)
@@ -35,4 +46,7 @@ clamscan -vr --bell .
 ```bash
 clamscan -r /
 ```
-
+### run scan and print only infected files in current directory
+```bash
+clamscan -infected .
+```
