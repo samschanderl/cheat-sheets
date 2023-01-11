@@ -8,5 +8,8 @@
 ```bash
 clamscan -vr --bell .
 ```
-
+### run clam scan on all files and folders
+```bash
+clamscan -r /
+```
 
