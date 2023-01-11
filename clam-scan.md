@@ -5,6 +5,8 @@
 ## Common clam av commands
 
 ### run clam scan recursively on current directory (sound bell if virus detected)
-'''bash
+```bash
 clamscan -vr --bell .
-'''
+```
+
+
