@@ -42,3 +42,45 @@ SELECT COUNT(DISTINCT column_name) FROM table_name;
 ```SQL
 SELECT COUNT(DISTINCT Country) FROM Customers;
 ```
+
+### 5 - Get specific columns data from a Table where a condition is true
+- the `WHERE` clause is also used in `UPDATE`, `DELETE`, etc
+**Structure**
+```SQL
+SELECT column1, column2 FROM table_name WHERE condition;
+```
+**Example**
+```SQL
+SELECT * FROM Customers WHERE Country= 'MExico';
+SELECT name, address FROM Customers WHERE age >= 30;
+```
+
+### 6 - Get specific columns data from a Table where two conditions are true with `AND`
+**Structure**
+```SQL
+SELECT column1, column2 FROM table_name WHERE condition1 AND condition2;
+```
+**Example**
+```SQL
+SELECT name, address FROM Customers WHERE age >= 30 AND customer_status = 'VIP';
+```
+
+### 7 - Get specific columns data from a Table where one of two conditions is true with `OR`
+**Structure**
+```SQL
+SELECT column1, column2 FROM table_name WHERE condition1 OR condition2;
+```
+**Example**
+```SQL
+SELECT name, address FROM Customers WHERE age >= 30 OR customer_status = 'VIP';
+```
+
+### 8 - Get specific columns data from a Table where one condition is false `WHERE NOT`
+**Structure**
+```SQL
+SELECT column1, column2 FROM table_name WHERE condition1 OR condition2;
+```
+**Example**
+```SQL
+SELECT name, address FROM Customers WHERE NOT age >= 30;
+```
