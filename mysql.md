@@ -1,4 +1,6 @@
 # MySQL - Basic Commands
+Summary of basic commands.
+Source: [w3schools](https://www.w3schools.com/MySQL/mysql_sql.asp)
 
 ### 1 - Get all data from a Table
 **Structure**
@@ -83,4 +85,18 @@ SELECT column1, column2 FROM table_name WHERE condition1 OR condition2;
 **Example**
 ```SQL
 SELECT name, address FROM Customers WHERE NOT age >= 30;
+```
+
+### 9 - Get data and order it ascending or descending with `ORDER BY`
+- orders in ascending order by default
+- you can order by several columns. Orders first by first column, then by second
+
+**Structure**
+```SQL
+SELECT * FROM table_name ORDER BY column_name;
+```
+**Example**
+```SQL
+SELECT * FROM Customers ORDER BY NumberOfPurchases ASC|DESC;
+SELECT * FROM Customers ORDER BY Country, CustomerName;
 ```
